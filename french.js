@@ -10,7 +10,7 @@ module.exports = {
  MONEY_ADD: (amt) => let answer = `**vous venez de récolter ${amt} <:NewGoldus:725023149741047829>**`,
  ACTION_FAILED: (amount, verb) => let answer = `Il vous manque **${amount} <:NewGoldus:725023149741047829>** pour ${verb} ceci !`,
  HELP: {
-  CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes • ${nb} commandes`,
+  CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes (${nb} commandes)`,
   CMD_RAPPEL: "<a:notif:719806925788676157> | **Rappel :** Les arguments entre `<>` sont obligatoires, les arguments entre `[]` sont facultatifs.",
  },
  PING: {
